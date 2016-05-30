@@ -1,0 +1,34 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 5,
+    "sourceType": "script",
+    "ecmaFeatures": {
+    }
+  },
+  "env": {
+    "browser": false,
+    "node": true,
+    "jasmine": true
+  },
+  "globals": {
+    "browser": false
+  },
+  "rules": {
+    "strict": [
+      "error",
+      "function"
+    ],
+    "prefer-arrow-callback": "off",
+    "func-names": "off",
+    "new-cap": [
+      "error",
+      {
+        "capIsNewExceptions": [
+          "Given",
+          "When",
+          "Then"
+        ]
+      }
+    ]
+  }
+}
